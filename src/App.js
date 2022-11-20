@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import EightBall from './EightBall';
+import answers from './answers';
+import BoxesContainer from "./BoxesContainer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Eight Ball</h1>
+      <EightBall answers={answers} />
+      <br/>
+      <h1>Color Boxes</h1>
+      <BoxesContainer />
+      <br/>
     </div>
+      
   );
 }
 

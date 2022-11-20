@@ -1,0 +1,9 @@
+.BoxesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  height: 380px;
+  margin-bottom:20px;
+}
